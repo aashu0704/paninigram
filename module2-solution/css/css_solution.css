@@ -2,13 +2,24 @@
 	box-sizing: border-box;
 }
 body {
-	background-color: white;
+	background-image: url("C:/Users/Ajay/paninigram/module2-solution/food5.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
 	font-family: Georgia;
+
 
 }
 
-h1 {
+p {
 	text-align: center;
+	color: #b45008;
+	font-size: 60px;
+	font-family: Bodoni FLF;
+	font-style: italic;
+	font-weight: bold;
+	background-color: white;
+	opacity: 0.98;
 
 }
 #p1, #p2, #p3 {
@@ -39,33 +50,52 @@ h1 {
 	text-align: left;
 	/*background-color: gray;*/
 }
+
+#p112, #p122, #p132 {
+	padding: 40px 10px 10px 10px;
+	margin: 20px;
+	border: 2px solid white;
+	background-color: white;
+	margin-top: 10px;
+	opacity: 0.1;
+}
+
+#p112:hover {
+	opacity: 0.8;
+}
+#p122:hover {
+	opacity: 0.8;
+}
+#p132:hover {
+	opacity: 0.8;
+}
+
 #p111, #p121, #p131 {
 	text-align: center;
 	width: 35%;
 	float: right;
 	font-size: 20px;
-	border: 2px solid black;
+	border: 3px solid white;
 	padding: 2px;
 	margin-right: 20px;
 	margin-top: 0px;
+	font-family: Poppins Bold, sans-serif;
+	background-color: white;
+	box-shadow: 5px 5px ;
 }
 #p111 {
-	background-color: pink;
-}
-#p121 {
-	background-color: red;
-	text-decoration-color: white;
-}
-#p131 {
-	background-color: yellow;
+	color: #b45008;
 }
 
-#p112, #p122, #p132 {
-	padding: 32px 10px 10px 10px;
-	margin: 20px;
-	border: 2px solid black;
-	background-color: gray;
+#p121 {
+	background-color: #b45008;
+	color: white;
 }
+#p131 {
+	color: #b45008;
+}
+
+
 
 /* Simple Responsive Framework. */
 .row {
